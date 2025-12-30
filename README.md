@@ -30,6 +30,50 @@ La aplicación está construida siguiendo los principios de **Clean Architecture
 
 ---
 
+## 📥 Descarga
+
+<div align="center">
+
+### ⬇️ Descargar APK desde Releases
+
+[![Download APK](https://img.shields.io/badge/Descargar-v1.0.0-success?style=for-the-badge&logo=android&logoColor=white)](https://github.com/BryanRF/memory-pub/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/BryanRF/memory-pub?label=Última%20Release&style=flat-square)](https://github.com/BryanRF/memory-pub/releases/latest)
+
+**Versión:** `v1.0.0`  
+**Plataforma:** `Android`  
+**Estado:** `En Desarrollo` ⚠️
+
+[📦 Ver todas las Releases](https://github.com/BryanRF/memory-pub/releases)
+
+</div>
+
+### 🔧 Instalación del APK
+
+**Opción 1: Desde GitHub Releases (Recomendado)**
+1. Ve a la página de [Releases](https://github.com/BryanRF/memory-pub/releases/latest)
+2. Descarga el archivo `memory-app.apk` desde la última release
+3. Una vez descargado, abre el archivo en tu dispositivo Android
+
+**Opción 2: Descarga Directa**
+- Haz clic en el botón de descarga arriba para ir a la última release
+- Descarga el archivo `memory-app.apk`
+- Transfiere el archivo a tu dispositivo Android si lo descargaste en otro dispositivo
+
+**Pasos de Instalación:**
+1. Abre el archivo APK en tu dispositivo Android
+2. Permite la instalación desde fuentes desconocidas si se solicita
+3. Sigue las instrucciones de instalación
+4. ¡Listo! Ya puedes usar MEMORY
+
+### ⚙️ Primera Configuración
+
+1. Abre la aplicación **MEMORY**
+2. Configura tu autenticación biométrica cuando se solicite
+3. Establece una contraseña maestra (si es requerida)
+4. ¡Comienza a usar la aplicación!
+
+---
+
 ## ✨ Características Principales
 
 ### 🔐 Seguridad y Privacidad
@@ -108,55 +152,6 @@ La aplicación está construida siguiendo los principios de **Clean Architecture
 |**Configuración**|**Personalización**|**Más Características**|
 
 </div>
-
----
-
-## 📥 Descarga
-
-<div align="center">
-
-### ⬇️ Descargar APK desde Releases
-
-[![Download APK](https://img.shields.io/badge/Descargar-v1.0.0-success?style=for-the-badge&logo=android&logoColor=white)](https://github.com/BryanRF/memory-pub/releases/latest)
-[![GitHub release](https://img.shields.io/github/v/release/BryanRF/memory-pub?label=Última%20Release&style=flat-square)](https://github.com/BryanRF/memory-pub/releases/latest)
-
-**Versión:** `v1.0.0`  
-**Plataforma:** `Android`  
-**Estado:** `En Desarrollo` ⚠️
-
-[📦 Ver todas las Releases](https://github.com/BryanRF/memory-pub/releases)
-
-</div>
-
-### 📋 Requisitos Previos
-
-- ✅ Dispositivo Android (versión mínima: **Android 5.0 / API 21**)
-- ✅ Habilitar instalación desde fuentes desconocidas (si es necesario)
-
-### 🔧 Instalación del APK
-
-**Opción 1: Desde GitHub Releases (Recomendado)**
-1. Ve a la página de [Releases](https://github.com/BryanRF/memory-pub/releases/latest)
-2. Descarga el archivo `memory-app.apk` desde la última release
-3. Una vez descargado, abre el archivo en tu dispositivo Android
-
-**Opción 2: Descarga Directa**
-- Haz clic en el botón de descarga arriba para ir a la última release
-- Descarga el archivo `memory-app.apk`
-- Transfiere el archivo a tu dispositivo Android si lo descargaste en otro dispositivo
-
-**Pasos de Instalación:**
-1. Abre el archivo APK en tu dispositivo Android
-2. Permite la instalación desde fuentes desconocidas si se solicita
-3. Sigue las instrucciones de instalación
-4. ¡Listo! Ya puedes usar MEMORY
-
-### ⚙️ Primera Configuración
-
-1. Abre la aplicación **MEMORY**
-2. Configura tu autenticación biométrica cuando se solicite
-3. Establece una contraseña maestra (si es requerida)
-4. ¡Comienza a usar la aplicación!
 
 ---
 
