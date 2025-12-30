@@ -1,26 +1,168 @@
 <div align="center">
 
-#  MEMORY
+<style>
+  .header-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .feature-card {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .badge-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .download-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px 0;
+    color: white;
+    box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+  }
+  
+  .download-section h3 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .download-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: white;
+    color: #667eea;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  
+  .download-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  }
+  
+  .info-box {
+    background: #f8f9fa;
+    border-left: 4px solid #667eea;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .section-title {
+    color: #667eea;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+    margin: 30px 0 20px 0;
+  }
+  
+  .tech-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+  
+  .screenshot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .screenshot-item {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .screenshot-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .status-badge {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(245, 87, 108, 0.3);
+  }
+  
+  .architecture-diagram {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .footer-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 40px 0 20px 0;
+    color: white;
+  }
+</style>
 
-### App de Gestión Personal
+<h1 class="header-gradient">🧠 MEMORY</h1>
 
-![Memory App](assets/images/image.png)
+<h3 style="color: #667eea; margin-top: -10px;">App de Gestión Personal</h3>
 
-[![Status](https://img.shields.io/badge/Status-En%20Desarrollo-yellow?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BryanRF/memory-pub)
-[![Flutter](https://img.shields.io/badge/Flutter-3.8+-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)](LICENSE)
+<img src="assets/images/image.png" alt="Memory App" style="max-width: 400px; border-radius: 20px; box-shadow: 0 8px 16px rgba(0,0,0,0.2); margin: 20px 0;">
 
-**Aplicación multiplataforma privada y segura con cifrado AES-256 y autenticación biométrica**
+<div class="badge-container">
+  <span class="status-badge">🚧 En Desarrollo</span>
+</div>
 
-[![Null Safety](https://img.shields.io/badge/Null%20Safety-100%25-green?style=flat-square)](https://dart.dev/null-safety)
-[![Architecture](https://img.shields.io/badge/Architecture-Clean%20Architecture-blue?style=flat-square)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-[![GitHub release](https://img.shields.io/github/v/release/BryanRF/memory-pub?label=Release&style=flat-square)](https://github.com/BryanRF/memory-pub/releases/latest)
+<div class="badge-container">
+  <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-3.8+-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Private-red?style=for-the-badge" alt="License"></a>
+  <a href="https://dart.dev/null-safety"><img src="https://img.shields.io/badge/Null%20Safety-100%25-green?style=flat-square" alt="Null Safety"></a>
+  <a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"><img src="https://img.shields.io/badge/Architecture-Clean%20Architecture-blue?style=flat-square" alt="Architecture"></a>
+  <a href="https://github.com/BryanRF/memory-pub/releases/latest"><img src="https://img.shields.io/github/v/release/BryanRF/memory-pub?label=Release&style=flat-square" alt="Release"></a>
+</div>
 
----
+<p style="font-size: 1.1em; color: #555; margin: 20px 0;">
+  <strong>Aplicación multiplataforma privada y segura con cifrado AES-256 y autenticación biométrica</strong>
+</p>
 
 </div>
 
+---
+
 ## 📋 Descripción
+
+<div class="info-box">
 
 **MEMORY** es una aplicación multiplataforma desarrollada con Flutter que ofrece una solución completa para la gestión personal de información sensible. Diseñada con un enfoque en la privacidad y seguridad, utiliza cifrado **AES-256** de grado militar y autenticación biométrica para proteger tus datos más importantes.
 
@@ -28,26 +170,36 @@
 
 La aplicación está construida siguiendo los principios de **Clean Architecture**, garantizando código mantenible, escalable y testeable.
 
+</div>
+
 ---
 
 ## 📥 Descarga
 
-<div align="center">
+<div class="download-section">
 
-### ⬇️ Descargar APK desde Releases
+<h3 style="color: white; margin-top: 0;">⬇️ Descargar APK desde Releases</h3>
 
-[![Download APK](https://img.shields.io/badge/Descargar-v1.0.0-success?style=for-the-badge&logo=android&logoColor=white)](https://github.com/BryanRF/memory-pub/releases/latest)
-[![GitHub release](https://img.shields.io/github/v/release/BryanRF/memory-pub?label=Última%20Release&style=flat-square)](https://github.com/BryanRF/memory-pub/releases/latest)
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://github.com/BryanRF/memory-pub/releases/latest" class="download-button">
+    📱 Descargar v1.0.0
+  </a>
+  <a href="https://github.com/BryanRF/memory-pub/releases" class="download-button">
+    📦 Ver Releases
+  </a>
+</div>
 
-**Versión:** `v1.0.0`  
-**Plataforma:** `Android`  
-**Estado:** `En Desarrollo` ⚠️
-
-[📦 Ver todas las Releases](https://github.com/BryanRF/memory-pub/releases)
+<div style="text-align: center; margin-top: 20px;">
+  <p style="margin: 5px 0;"><strong>Versión:</strong> <code style="background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 5px;">v1.0.0</code></p>
+  <p style="margin: 5px 0;"><strong>Plataforma:</strong> <code style="background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 5px;">Android</code></p>
+  <p style="margin: 5px 0;"><strong>Estado:</strong> <code style="background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 5px;">En Desarrollo ⚠️</code></p>
+</div>
 
 </div>
 
 ### 🔧 Instalación del APK
+
+<div class="feature-card">
 
 **Opción 1: Desde GitHub Releases (Recomendado)**
 1. Ve a la página de [Releases](https://github.com/BryanRF/memory-pub/releases/latest)
@@ -65,18 +217,26 @@ La aplicación está construida siguiendo los principios de **Clean Architecture
 3. Sigue las instrucciones de instalación
 4. ¡Listo! Ya puedes usar MEMORY
 
+</div>
+
 ### ⚙️ Primera Configuración
+
+<div class="info-box">
 
 1. Abre la aplicación **MEMORY**
 2. Configura tu autenticación biométrica cuando se solicite
 3. Establece una contraseña maestra (si es requerida)
 4. ¡Comienza a usar la aplicación!
 
+</div>
+
 ---
 
-## ✨ Características Principales
+<h2 class="section-title">✨ Características Principales</h2>
 
 ### 🔐 Seguridad y Privacidad
+
+<div class="feature-card">
 
 <div align="center">
 
@@ -89,7 +249,11 @@ La aplicación está construida siguiendo los principios de **Clean Architecture
 
 </div>
 
+</div>
+
 ### 🏗️ Arquitectura y Rendimiento
+
+<div class="feature-card">
 
 <div align="center">
 
@@ -103,44 +267,60 @@ La aplicación está construida siguiendo los principios de **Clean Architecture
 
 </div>
 
+</div>
+
 ### 📱 Funcionalidades
+
+<div class="info-box">
 
 - ✅ **15+ Módulos**: Amplia gama de funcionalidades para gestión personal
 - ✅ **Backup Automático**: Respaldo automático de tus datos
 - ✅ **100% Null-Safe**: Código completamente seguro con null safety
 - ✅ **Interfaz Moderna**: UI/UX intuitiva y responsive
 
+</div>
+
 ---
 
-## 🛠️ Stack Tecnológico
+<h2 class="section-title">🛠️ Stack Tecnológico</h2>
 
 <div align="center">
 
 ### Framework y Lenguaje
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.8+-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.0+-0175C2?style=flat-square&logo=dart&logoColor=white)](https://dart.dev)
+<div class="badge-container">
+  <span class="tech-badge">Flutter 3.8+</span>
+  <span class="tech-badge">Dart 3.0+</span>
+</div>
 
 ### Gestión de Estado
 
-[![Riverpod](https://img.shields.io/badge/Riverpod-State%20Management-FF6B6B?style=flat-square)](https://riverpod.dev)
+<div class="badge-container">
+  <span class="tech-badge">Riverpod</span>
+</div>
 
 ### Base de Datos
 
-[![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+<div class="badge-container">
+  <span class="tech-badge">SQLite</span>
+</div>
 
 ### Seguridad
 
-[![Biometric](https://img.shields.io/badge/Biometric-Auth-4CAF50?style=flat-square)](https://pub.dev/packages/local_auth)
-[![AES-256](https://img.shields.io/badge/AES--256-Encryption-FF9800?style=flat-square)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+<div class="badge-container">
+  <span class="tech-badge">Biometric Auth</span>
+  <span class="tech-badge">AES-256</span>
+</div>
 
 </div>
 
 ---
 
-## 📸 Capturas de Pantalla
+<h2 class="section-title">📸 Capturas de Pantalla</h2>
 
 <div align="center">
+
+<div class="screenshot-grid">
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
@@ -153,11 +333,15 @@ La aplicación está construida siguiendo los principios de **Clean Architecture
 
 </div>
 
+</div>
+
 ---
 
-## 🏛️ Arquitectura
+<h2 class="section-title">🏛️ Arquitectura</h2>
 
 La aplicación sigue los principios de **Clean Architecture**, organizando el código en tres capas principales:
+
+<div class="architecture-diagram">
 
 ```
 ┌─────────────────────────────────────────┐
@@ -191,7 +375,11 @@ La aplicación sigue los principios de **Clean Architecture**, organizando el c�
 └─────────────────────────────────────────┘
 ```
 
+</div>
+
 ### 🎯 Principios Aplicados
+
+<div class="feature-card">
 
 <div align="center">
 
@@ -205,33 +393,49 @@ La aplicación sigue los principios de **Clean Architecture**, organizando el c�
 
 </div>
 
+</div>
+
 ---
 
-## 🔒 Seguridad
+<h2 class="section-title">🔒 Seguridad</h2>
 
 ### 🔐 Cifrado
+
+<div class="info-box">
 
 - ✅ Todos los datos sensibles se cifran usando **AES-256** antes de almacenarse
 - ✅ Las claves de cifrado se gestionan de forma segura
 - ✅ No se almacenan datos en texto plano
 
+</div>
+
 ### 👤 Autenticación
+
+<div class="info-box">
 
 - ✅ **Autenticación Biométrica**: Utiliza las capacidades nativas del dispositivo
 - ✅ **Contraseña Maestra**: Opción adicional de seguridad
 - ✅ **Sesiones Seguras**: Gestión segura de sesiones de usuario
 
+</div>
+
 ### 🛡️ Privacidad
+
+<div class="info-box">
 
 - ✅ **Sin Telemetría**: No se recopilan datos de uso
 - ✅ **Sin Servidores Externos**: Todo funciona localmente
 - ✅ **Control Total**: Tú tienes control completo sobre tus datos
 
+</div>
+
 ---
 
-## 📚 Módulos Disponibles
+<h2 class="section-title">📚 Módulos Disponibles</h2>
 
 La aplicación incluye más de **15 módulos** para diferentes necesidades de gestión personal:
+
+<div class="feature-card">
 
 <div align="center">
 
@@ -247,64 +451,97 @@ La aplicación incluye más de **15 módulos** para diferentes necesidades de ge
 
 </div>
 
+</div>
+
 ---
 
-## 🚀 Características Técnicas
+<h2 class="section-title">🚀 Características Técnicas</h2>
 
 ### ⚡ Rendimiento
+
+<div class="info-box">
 
 - 🚀 **Carga Rápida**: Optimizado para tiempos de inicio mínimos
 - 📄 **Paginación Infinita**: Manejo eficiente de grandes listas
 - 💾 **Caché Inteligente**: Sistema de caché para mejor rendimiento
 
+</div>
+
 ### 🛡️ Confiabilidad
+
+<div class="info-box">
 
 - 🌐 **Offline-First**: Funciona sin conexión a internet
 - 💾 **Backup Automático**: Respaldo automático de datos
 - 🔄 **Recuperación de Datos**: Sistema robusto de recuperación
 
+</div>
+
 ### ✨ Calidad de Código
+
+<div class="info-box">
 
 - ✅ **100% Null-Safe**: Código completamente seguro
 - 🧹 **Clean Code**: Código limpio y mantenible
 - 🏗️ **SOLID Principles**: Principios SOLID aplicados
 - 🎨 **Design Patterns**: Uso de patrones de diseño apropiados
 
+</div>
+
 ---
 
 ## 📄 Licencia
 
+<div class="info-box">
+
 Esta aplicación es **privada** y su código fuente no está disponible públicamente.
+
+</div>
 
 ---
 
 ## 🤝 Contribuciones
 
+<div class="info-box">
+
 Esta es una aplicación privada. Las contribuciones no están abiertas al público.
+
+</div>
 
 ---
 
 ## 📞 Soporte
 
+<div class="info-box">
+
 Para soporte o consultas sobre la aplicación, por favor contacta al desarrollador.
 
----
-
-<div align="center">
-
-### ⚠️ Estado del Proyecto
-
-**Esta aplicación se encuentra actualmente en desarrollo activo.**
-
-Las características, funcionalidades y la interfaz pueden cambiar en futuras versiones.
+</div>
 
 ---
 
-**Desarrollado con ❤️ usando Flutter**
+<div class="footer-section" align="center">
 
-[![Flutter](https://img.shields.io/badge/Made%20with-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+<h3 style="color: white; margin-top: 0;">⚠️ Estado del Proyecto</h3>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BryanRF/memory-pub)
-[![Releases](https://img.shields.io/badge/Releases-Downloads-success?style=flat-square&logo=github&logoColor=white)](https://github.com/BryanRF/memory-pub/releases)
+<p style="font-size: 1.1em; margin: 15px 0;">
+  <strong>Esta aplicación se encuentra actualmente en desarrollo activo.</strong>
+</p>
+
+<p style="margin: 10px 0;">
+  Las características, funcionalidades y la interfaz pueden cambiar en futuras versiones.
+</p>
+
+<hr style="border-color: rgba(255,255,255,0.3); margin: 20px 0;">
+
+<p style="font-size: 1.2em; margin: 20px 0;">
+  <strong>Desarrollado con ❤️ usando Flutter</strong>
+</p>
+
+<div class="badge-container">
+  <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Made%20with-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"></a>
+  <a href="https://github.com/BryanRF/memory-pub"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://github.com/BryanRF/memory-pub/releases"><img src="https://img.shields.io/badge/Releases-Downloads-success?style=flat-square&logo=github&logoColor=white" alt="Releases"></a>
+</div>
 
 </div>
