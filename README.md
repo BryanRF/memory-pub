@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Memory App](image.png)
+![Memory App](assets/images/image.png)
 
 **Aplicación multiplataforma privada y segura con cifrado AES-256 y autenticación biométrica**
 
@@ -87,9 +87,9 @@ La aplicación está construida siguiendo los principios de **Clean Architecture
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|![Screenshot 1](memory-screenshot-1.jpg)|![Screenshot 2](memory-screenshot-2.jpg)|![Screenshot 3](memory-screenshot-3.jpg)|
-|![Screenshot 4](memory-screenshot-4.jpg)|![Screenshot 5](memory-screenshot-5.jpg)|![Screenshot 6](memory-screenshot-6.jpg)|
-|![Screenshot 7](memory-screenshot-7.jpg)|![Screenshot 8](memory-screenshot-8.jpg)|![Screenshot 9](memory-screenshot-9.jpg)|
+|![Screenshot 1](assets/images/memory-screenshot-1.jpg)|![Screenshot 2](assets/images/memory-screenshot-2.jpg)|![Screenshot 3](assets/images/memory-screenshot-3.jpg)|
+|![Screenshot 4](assets/images/memory-screenshot-4.jpg)|![Screenshot 5](assets/images/memory-screenshot-5.jpg)|![Screenshot 6](assets/images/memory-screenshot-6.jpg)|
+|![Screenshot 7](assets/images/memory-screenshot-7.jpg)|![Screenshot 8](assets/images/memory-screenshot-8.jpg)|![Screenshot 9](assets/images/memory-screenshot-9.jpg)|
 
 </div>
 
