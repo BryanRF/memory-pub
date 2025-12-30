@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 MEMORY
+#  MEMORY
 
 ### App de Gestión Personal
 
