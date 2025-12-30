@@ -10,6 +10,7 @@
 [![License](https://img.shields.io/badge/License-Private-red)](LICENSE)
 [![Null Safety](https://img.shields.io/badge/Null%20Safety-100%25-green)](https://dart.dev/null-safety)
 [![Architecture](https://img.shields.io/badge/Architecture-Clean%20Architecture-blue)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+[![GitHub release](https://img.shields.io/github/v/release/BryanRF/memory-pub?label=Release&style=flat-square)](https://github.com/BryanRF/memory-pub/releases/latest)
 
 </div>
 
@@ -19,13 +20,14 @@
 
 <div align="center">
 
-### [⬇️ Descargar APK](memory-app.apk)
+### [⬇️ Descargar APK desde Releases](https://github.com/BryanRF/memory-pub/releases/latest)
 
-[![Download APK](https://img.shields.io/badge/Descargar-memory--app.apk-success?style=for-the-badge&logo=android&logoColor=white)](memory-app.apk)
+[![Download APK](https://img.shields.io/badge/Descargar-v1.0.0-success?style=for-the-badge&logo=android&logoColor=white)](https://github.com/BryanRF/memory-pub/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/BryanRF/memory-pub?label=Última%20Release&style=flat-square)](https://github.com/BryanRF/memory-pub/releases/latest)
 
-**Versión:** Debug  
-**Tamaño:** Ver archivo en repositorio  
-**Plataforma:** Android
+**Versión:** v1.0.0  
+**Plataforma:** Android  
+**Descarga:** Disponible en [Releases](https://github.com/BryanRF/memory-pub/releases)
 
 </div>
 
@@ -99,14 +101,15 @@ La aplicación está construida siguiendo los principios de **Clean Architecture
 
 ### Instalación del APK
 
-**Opción 1: Descarga Directa**
-- Haz clic en el botón de descarga arriba o [descarga directamente el APK](memory-app.apk)
-- Una vez descargado, abre el archivo en tu dispositivo Android
+**Opción 1: Desde GitHub Releases (Recomendado)**
+1. Ve a la página de [Releases](https://github.com/BryanRF/memory-pub/releases/latest)
+2. Descarga el archivo `memory-app.apk` desde la última release
+3. Una vez descargado, abre el archivo en tu dispositivo Android
 
-**Opción 2: Desde GitHub**
-1. Navega a la sección de [Releases](../../releases) o descarga desde el repositorio
-2. Descarga el archivo `memory-app.apk`
-3. Transfiere el archivo a tu dispositivo Android si lo descargaste en otro dispositivo
+**Opción 2: Descarga Directa**
+- Haz clic en el botón de descarga arriba para ir a la última release
+- Descarga el archivo `memory-app.apk`
+- Transfiere el archivo a tu dispositivo Android si lo descargaste en otro dispositivo
 
 **Pasos de Instalación:**
 1. Abre el archivo APK en tu dispositivo Android
