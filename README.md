@@ -4,14 +4,7 @@
 
 ### App de Gestión Personal
 
-<br>
 
-> ### ⚠️ **🚧 EN DESARROLLO** ⚠️
-> 
-> **Esta aplicación se encuentra actualmente en desarrollo activo.**  
-> Las características y funcionalidades pueden cambiar en futuras versiones.
-
-<br>
 
 ![Memory App](assets/images/image.png)
 
