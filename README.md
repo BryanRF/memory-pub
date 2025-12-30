@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Memory App](memory-screenshot-1.jpg)
+![Memory App](image.png)
 
 **Aplicación multiplataforma privada y segura con cifrado AES-256 y autenticación biométrica**
 
