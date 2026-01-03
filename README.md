@@ -282,6 +282,20 @@ La aplicación incluye más de **15 módulos** para diferentes necesidades de ge
 
 ---
 
+## 👥 Colaboradores
+
+Agradecemos a los colaboradores que han contribuido con sus ideas, sugerencias y expertise al desarrollo de MEMORY:
+
+<div align="center">
+
+| 👤 Colaborador | 🎯 Áreas de Contribución |
+|:--------------:|:------------------------|
+| [**@ElianaBarturen**](https://github.com/ElianaBarturen) | 💡 Ideas y Sugerencias • 🎨 Diseño UI/UX • 🧪 Testing |
+
+</div>
+
+---
+
 ## 📄 Licencia
 
 Esta aplicación es **privada** y su código fuente no está disponible públicamente.
